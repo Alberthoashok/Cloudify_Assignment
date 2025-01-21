@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fc;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Dropdown Section */
+.dropdown-section {
+  margin-bottom: 40px;
+}
+
+.dropdown-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dropdown-table th,
+.dropdown-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.dropdown-table th {
+  background-color: #f4f7fc;
+}
+
+select {
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Dynamic Table Section */
+.dynamic-table-section {
+  margin-top: 40px;
+}
+
+.multi-select-dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-item {
+  margin: 5px 0;
+}
+
+.add-selected-btn {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-selected-btn:hover {
+  background-color: #45a049;
+}
+
+.selected-items {
+  margin-top: 10px;
+}
+
+.add-row-section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-row-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-row-btn:hover {
+  background-color: #0056b3;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 70%;
+  box-sizing: border-box;
+}
